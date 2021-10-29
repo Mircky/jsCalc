@@ -5,9 +5,7 @@ function clear() {
   num_space.textContent = "";
 }
 
-const buttons = Array.from(document.querySelectorAll('.operator_buttons'))
+const buttons = Array.from(document.querySelectorAll(".operator_buttons"));
 
-const clearButton = buttons[0]
-console.log(clearButton.textContent)
-
-clearButton.addEventListener('click', clear())
+const clearButton = buttons[0];
+clearButton.addEventListener('click', clear);
