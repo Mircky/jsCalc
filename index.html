@@ -13,29 +13,29 @@
   </head>
   <body>
     <div class="calculator">
-      <div class="num_space">45</div>
+      <div class="num_space"></div>
       <div class="wrap">
         <div class="controls_wrapper">
-          <div class="calc_buttons">7</div>
-          <div class="calc_buttons">8</div>
-          <div class="calc_buttons">9</div>
-          <div class="calc_buttons">4</div>
-          <div class="calc_buttons">5</div>
-          <div class="calc_buttons">6</div>
-          <div class="calc_buttons">1</div>
-          <div class="calc_buttons">2</div>
-          <div class="calc_buttons">3</div>
-          <div class="calc_buttons">,</div>
-          <div class="calc_buttons">0</div>
-          <div class="calc_buttons">%</div>
+          <button class="calc_buttons" onclick="input('7')">7</button>
+          <button class="calc_buttons" onclick="input('8')">8</button>
+          <button class="calc_buttons" onclick="input('9')">9</button>
+          <button class="calc_buttons" onclick="input('4')">4</button>
+          <button class="calc_buttons" onclick="input('5')">5</button>
+          <button class="calc_buttons" onclick="input('6')">6</button>
+          <button class="calc_buttons" onclick="input('1')">1</button>
+          <button class="calc_buttons" onclick="input('2')">2</button>
+          <button class="calc_buttons" onclick="input('3')">3</button>
+          <button class="calc_buttons" onclick="input('.')">.</button>
+          <button class="calc_buttons" onclick="input('0')">0</button>
+          <button class="calc_buttons" onclick="input('%')">%</button>
         </div>
         <div class="operators_wrap">
-          <div class="operator_buttons">С</div>
-          <div class="operator_buttons">+</div>
-          <div class="operator_buttons">-</div>
-          <div class="operator_buttons">*</div>
-          <div class="operator_buttons">/</div>
-          <div class="operator_buttons">=</div>
+          <button class="operator_buttons">С</button>
+          <button class="operator_buttons" onclick="input('+')">+</button>
+          <button class="operator_buttons" onclick="input('-')">-</button>
+          <button class="operator_buttons" onclick="input('*')">*</button>
+          <button class="operator_buttons" onclick="input('/')">/</button>
+          <button class="operator_buttons" onclick="result()">=</button>
         </div>
       </div>
     </div>
